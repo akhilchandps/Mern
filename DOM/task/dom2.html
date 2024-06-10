@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head">DOM getElementById</h1>
+
+    <p>This is the first paragraph</p>
+    <p>This is the second paragraph</p>
+    <p>This is the Third paragraph</p>
+
+    <button  onclick="GetId()">use tag</button>
+    
+    
+
+   <script>
+    doc=document.getElementById("head")
+    console.log(doc);
+    doc.style.color="green"
+    function GetId()
+    {
+       var btn=document.getElementsByTagName("p")
+       console.log(btn);
+    //    for(i=0; i<btn.length; i++)
+    //    {
+    //     btn[i].style.backgroundColor="pink"
+    //     btn[i].style.color="blue"
+    //    }
+
+    //    or map use
+
+    
+    [...btn].map(item=>{item.style.backgroundColor="pink"
+                        item.style.color="blue"})
+
+
+    }
+</script>
+</body>
+</html>

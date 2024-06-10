@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+
+<style>
+    body
+    {
+       background-image: url(https://cdn.pixabay.com/photo/2020/04/20/18/10/cinema-5069314_1280.jpg);
+    }
+
+    .card
+    {
+      background-color: rgba(36, 32, 32, 0.8);
+      color: beige;
+    }
+    .container
+    {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+</style>
+<body>
+    <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0 m-auto mt-3">
+          <div class="card py-5 px-2 rounded-4">
+            <div class="card-body">
+               <input type="text" class="form-control" placeholder="Search movie" id="details">
+               <div class="d-grid gap-2 col-6 mx-auto mt-5">
+                <button class="btn btn" type="button" onclick="search()" style="background-color: rgb(190, 68, 68); font-weight: 600; font-size: 18px; color: white;">Search</button>
+               
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container mt-3">
+        <div id="result"></div>
+      </div>
+
+
+<script>
+
+
+  function search()
+  {
+    movie=details.value
+    fetch(`https://www.omdbapi.com/?apikey=db7fbfb1&t=${movie}`)
+    .then(data=>data.json())
+    .then(data1=>displaydata(data1))
+  }
+
+   function displaydata(data1)
+   {
+      htmldata=`<div class="card mb-3" style="max-width: 940px;" ">
+  <div class="row g-0">
+    <div class="col-md-4 pic">
+      <img
+        src="${data1.Poster}"
+        alt="Trendy Pants and Shoes"
+        class="img-fluid rounded-start"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><b>Title</b>:${data1.Title}</h5>
+        <hr>
+        <p class="card-text"><b>Year</b>: ${data1.Year}
+        </p>
+        <p class="card-text">
+          <b>Rated</b>: ${data1.Rated}
+        </p>
+        <p class="card-text">
+         <b> Released</b>: ${data1.Released}
+        </p>
+        <p class="card-text">
+          <b>Runtime</b>: ${data1.Runtime}
+        </p>
+        <p class="card-text">
+         <b>Genre</b>: ${data1.Genre}
+        </p>
+        <p class="card-text">
+          <b>Director</b>: ${data1.Director}
+        </p>
+        <p class="card-text">
+         <b> Writer</b>: ${data1.Writer}
+        </p>
+        <p class="card-text">
+          <b>Actors</b>: ${data1.Actors}
+        </p>
+        <p class="card-text">
+          <b>Language</b>: ${data1.Language}
+        </p>
+        <p class="card-text">
+        <b>Plot</b>: ${data1.Plot}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>`
+
+         result.innerHTML=htmldata
+    }
+         
+</script>
+
+
+</body>
+</html>

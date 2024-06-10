@@ -1,0 +1,47 @@
+.social
+{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.social i
+{
+    font-size: 50px;
+   margin: 10px;
+
+    color: black;
+    height: 55px;
+    width: 60px;
+    /* background-color:aquamarine; */
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.5s ease;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+    padding-top: 10px;
+}
+i:hover
+{
+    color: rgb(255, 255, 255);
+    bottom: 10px;
+    transform: translate(0, -10px);
+ 
+    
+}
+.instagram:hover
+{
+   background-color: #c24b8e;
+  
+
+}
+.facebook:hover{
+    background-color: #3b5998;
+}
+.twitter:hover
+{
+    background-color: #55acee;
+}
+.wh:hover
+{
+    background-color: #25D366;
+}

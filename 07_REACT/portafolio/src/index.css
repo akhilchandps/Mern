@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bruno+Ace+SC&family=Cookie&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Kaushan+Script&family=Lexend:wght@100..900&family=Lobster&family=Manuale:ital,wght@0,300..800;1,300..800&family=Marcellus+SC&family=Nanum+Gothic+Coding&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:wght@200&family=Oleo+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&family=Palanquin+Dark:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Stick+No+Bills:wght@200..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+   
+}
+
+body{
+    overflow-x: hidden;
+}
+.col{
+    border-radius: 20px;
+}
+
+
+.card{
+    transition: 0.5s;
+ 
+}
+.card:hover{
+   transform: translate(0,-10px); 
+}
+
+.header
+{
+    background-color: var(--bg-clr);
+}
+
+label{
+
+    color: var(--para-clr);
+}
+/* :root{
+
+--bg-color:#191f36;
+--snd-bf-color:#262840;
+--text-color:#fff;
+--main-color:#59B2F4;
+} */
+
+.dark-theme{
+
+    --main-heading:#5f99be;
+    --para-clr:#fff;
+    --btn-color:#191f36;
+    --bg-clr:#191f36;
+    --button-border:#83b3d1;
+    --i-button:#5f99be;
+    --nav-porto:#5f99be;
+
+}
+
+.dark-theme{
+    background-color:#191f36 ;
+}
+
+.light-theme{
+
+    --main-heading:#5f99be;
+    --para-clr:#333;
+    --btn-color:#0a0b13;
+    --bg-clr:#fff;
+    --button-border:#191a1b;
+
+    --i-button:#fafafa;
+    --nav-porto:#db2020;
+}
+.bord i{
+    border: solid var(--main-heading);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.col1 h4{
+
+    color: var(--para-clr);
+
+}
+
+.col1 h2{
+
+    color: var(--nav-porto)
+}
+span{
+    color: var(--nav-porto);
+    font-weight: 700;
+}
+.col1 h1{
+
+    color: var(--para-clr);
+   
+}
+.col1 p{
+
+    color: var(--para-clr);
+
+}
+.roww .col-md{
+
+    border: solid var(--nav-porto);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.row1 .col-md{
+
+    border: solid var(--nav-porto);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+  
+}
+
+.about
+{
+    color: var(--nav-porto)
+}
+.para
+{
+    color: var(--para-clr);
+}
+
+.skill{
+    color: var(--para-clr);
+}
+
+.col5 h2{
+    color: var(--nav-porto)
+}
+ p{
+    color: var(--para-clr);
+}
+h3
+{
+    color: var(--para-clr);
+}
+
+.row6 h2{
+
+    color: var(--nav-porto)
+}
+.row6 .col6 h3{
+
+    color: var(--para-clr);
+}
+.row6 .col6 p{
+
+    color: var(--para-clr);
+}
+.nav a{
+
+    color: var(--para-clr);
+    margin-left: 40px;
+    cursor: pointer;
+}
+ .but button
+ {
+  
+    border: solid var(--main-color);
+    border-radius: 10px;
+ }
+
+  i
+ {
+    color: var(--para-clr);
+   font-size: 20px;
+ }
+
+.bat:hover{
+    transition: 0.3s ease;
+    padding: 10px 40px;
+}
+.col2 img
+{
+    transition: 0.3s ease;
+}
+.col2 img:hover{
+    
+    transform: translateX(-10px);
+}
+.card7{
+   
+    background-color: var(--bg-clr);
+}
+
+.nav Nav.Link{
+    color: var(--text-color);
+}
+
+.but button{
+
+    background-color: var(--btn-color);
+}
+
+.but button a{
+
+color: var(--para-clr);
+
+}
+.but button{
+    border: solid var(--button-border);
+}
+
+.but button i
+{
+    color: var(--i-button);
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+input, textarea{
+
+    width: 600px;
+}
+.container{
+    margin: auto;
+}
+.contact
+{
+    color: var(--nav-porto)
+}
+.link
+{
+   color: var(--para-clr);
+}
+
+
+.col2 img
+{
+    max-width: 450px;
+    margin-right: -20px;
+     opacity: 0;
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite ;
+    animation-delay: 2s,3s;
+}
+
+@keyframes floatImage{
+
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-24px);
+    
+       }
+     100%{
+        transform: translateY(0);
+    
+       }
+    }
+
+@keyframes zoomIn{
+
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    
+       }
+
+}
+
+
+
+
+
+
+
+@media screen  and (max-width:400px)
+{
+
+    html,body{
+
+        overflow-x: hidden;
+        margin: 0px;
+        padding: 0px;
+    }
+    .col{
+       margin-bottom: 50px;
+    }
+    .col1 p
+    {
+      
+        padding-right: 50px;
+    }
+
+    .col2 img
+    {
+        width: 300px;
+        
+    }
+    .link{
+
+        display: none;
+    }
+ 
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <script src="./home.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col ">
+            <img src="https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjIxMWJhdGNoMTAtYmItMTAzLXBob25lXzIuanBn.jpg" alt="" width="500px" height="400px">
+        </div>
+        <div class="col w-5">
+         <h1 class="text-center">Employee Details</h1><br>
+         <input type="text" id="empid" class="form-control" placeholder="Employee id"><br>
+         <input type="text" id="empname" class="form-control" placeholder="Employee name"><br>
+         <input type="text" id="empaddress" class="form-control" placeholder="Employee Address"><br>
+         <input type="text" id="empdesig" class="form-control" placeholder="Employee Designation"><br>
+         <input type="text" id="empexp" class="form-control" placeholder="Employee Experience"><br>
+         <input type="text" id="empsal" class="form-control" placeholder="Employee Salary"><br>
+          
+         <div class="text-center">
+         <button type="button" onclick="addemployee()" class="btn btn-outline-secondary px-4">AddItem</button>
+        </div>
+
+        </div>
+        <div class="col px-4">
+            <input id="emp"  type="text" class="form-control" placeholder="Search"><br>
+            <input onclick="search()" class="btn btn-primary" type="submit" value="Submit">
+            <div id="result"></div>
+        </div>
+    </div>
+ </div>
+
+</body>
+</html>

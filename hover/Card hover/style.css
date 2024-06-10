@@ -1,0 +1,52 @@
+.card
+
+{
+    position: absolute;
+    top: 30%;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    /* border-radius: 20px; */
+    transition: all 0.5s;
+}
+.card img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.headss
+{
+    position: absolute;
+   top: 0;
+    left: 0;
+     right:0;
+    color: aliceblue;
+    background-color:rgba(0,0,0,0.6);
+    text-shadow: 3px 3px 8px black;
+    height: 400px;
+   opacity: 0;
+   transition: all 0.5s;
+
+}
+.card:hover .headss
+{
+   opacity: 1;
+   transform: translate(0, -20px);
+  
+}
+.card:hover{
+    transform: translate(0,-10px);
+}
+button
+{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(91, 91, 136);
+    color: white;
+}
+.info
+{
+    position: relative;
+    top: 150px;
+}

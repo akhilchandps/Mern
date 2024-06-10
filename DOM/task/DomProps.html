@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- html code  -->
+      <!-- 1.parentNode : Return the parent node of an element -->
+      <div id="parent">
+        <p id="child">This is a child element</p>
+    </div>
+
+    <!-- 2.childNodes : Return the nodelist of an element -->
+    <ul id="listitems">
+      <li>child 1</li>
+      <li>child 2</li>
+      <li>child 3</li>
+      <li>child 4</li>
+    </ul>
+
+    <!-- 3.innerHTML :Gets or sets the html content of an element-->
+      <div id="divElmt">
+          <p>This is a paragraph</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatem sunt porro iure provident in recusandae, iusto ratione accusamus delectus! Doloremque magni cum quas harum, deserunt nisi vel? Soluta, iure.</p>
+      </div>
+    <!-- 4.textContent :Gets or sets the html content of an element-->
+
+    <p id="para1">This is a new paragraph</p>
+
+
+
+    <script>
+      const childelement=document.getElementById("child")
+      console.log(childelement);
+      const parentelement=childelement.parentNode
+      console.log(parentelement);
+
+      const parentElement= document.getElementById("listitems")
+      console.log(parentElement);
+      const childElement=parentElement.childNodes
+      console.log(childElement);
+
+
+      //innerHTML
+
+      element=document.getElementById("divElmt")
+      console.log(element);
+      element.innerHTML = `<h1>hi akhil </h1>`
+
+      //testcontent
+
+      el=document.getElementById("para1")
+      console.log(el);
+      el.textContent="How are you"
+    </script>
+
+    
+</body>
+</html>

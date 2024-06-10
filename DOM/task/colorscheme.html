@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color scheme</title>
+    <link rel="stylesheet" href="./colorsheme.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lobster&family=Nunito:wght@200&family=Oleo+Script&family=Oxygen:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body id="bgcolor">
+    <div class="container">
+        <h1 class="text-center mt-4">color scheme switcher</h1>
+   <div class="div">
+    <div class="col1 border border-4" onclick="GetId1()"></div>
+    <div class="col2 border border-4" onclick="GetId2()"></div>
+    <div class="col3 border border-4"onclick="GetId3()"></div>
+    <div class="col4 border border-4"" onclick="GetId4()"></div> 
+
+    </div> <br><br>
+   
+<center> <div class="sr">
+   <button class= "btn btn-warning"onclick="GetId5()">Default</button></center>
+</div>
+
+   <p class="m-4">Click one of the color above to change the background !</p>
+    </div>
+        
+    </div>
+
+
+ <script>
+   
+ function GetId1()
+ {
+    const color=document.getElementById("bgcolor")
+    console.log(color);
+    color.style.backgroundColor="brown"
+ }
+
+ function GetId2()
+ {
+    const color=document.getElementById("bgcolor")
+    console.log(color);
+    color.style.backgroundColor="rgb(151, 206, 206)"
+ }
+
+ function GetId3()
+ {
+    const color=document.getElementById("bgcolor")
+    console.log(color);
+    color.style.backgroundColor=" rgb(111, 119, 194)"
+ }
+
+ function GetId4()
+ {
+    const color=document.getElementById("bgcolor")
+    console.log(color);
+    color.style.backgroundColor=" rgb(177, 76, 143)"
+ }
+ function GetId5()
+ {
+    const color=document.getElementById("bgcolor")
+    console.log(color);
+    color.style.backgroundColor= "white"
+ }
+  
+ </script>
+</body>
+</html>
+
+
+

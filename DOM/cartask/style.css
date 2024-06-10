@@ -1,0 +1,18 @@
+.main .row
+{
+   margin-top: 50px;
+}
+.row .col
+{
+    margin: 40px;
+    box-shadow: 3px 3px 8px grey;
+}
+.col input
+{
+    
+  box-shadow: inset 5px 5px 12 black;
+}
+.row h2{
+    color: rgb(88, 88, 168);
+}
+

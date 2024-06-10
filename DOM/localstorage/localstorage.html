@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Local Storage</h1>
+
+    <script>
+
+        localStorage.setItem("grade","one")
+
+        //setobject to string
+
+        const Car={
+            brand:"suzuki",
+            color:"white",
+            price:10000
+
+        }
+
+        localStorage.setItem("car",JSON.stringify(Car))
+
+      
+
+        //getItem
+        var data1=localStorage.getItem('grade')
+        console.log(data1);
+
+        var data2=JSON.parse(localStorage.getItem('car'));
+         console.log(data2);
+
+
+         //removeItem
+         localStorage.removeItem("car")
+
+
+         //clear()
+         localStorage.clear()
+
+    </script>
+</body>
+</html>

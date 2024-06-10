@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://bank-aswin.netlify.app/home.html?acno=222 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="./Home_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="./Home_files/bootstrap.bundle.min.js.download" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Home_files/home.css">
+</head>
+<body style="overflow: hidden;">
+    <header id="header" style="top: 0px;">
+        <a href="https://bank-aswin.netlify.app/home.html?acno=222#" class="logo">My Bank</a>
+       
+       <ul>
+        <li><a href="https://bank-aswin.netlify.app/index2">Home</a></li>
+        <li><a href="https://bank-aswin.netlify.app/home.html?acno=222#" class="active">Services</a></li>
+        <li><a href="https://bank-aswin.netlify.app/home.html?acno=222#">Settings</a></li>
+        <li><a href="https://bank-aswin.netlify.app/">Logout</a></li>
+
+    </ul>
+    </header>
+<section>
+    <img src="./Home_files/banking-service-background-bank-building-icon-made-with-currency-symbols-dollar-euro-yen-pound-icons_127544-803.jpg" id="bg" alt="" style="opacity: 1;">
+        <div id="section" style="opacity: 1; top: 128px;">
+            <h1 id="heading" style="width: 1161px;">Welcome <span id="un"> &nbsp;sajikumar</span></h1>
+        </div>
+        
+        <div id="cont2">
+            <div class="row">
+                <div class="col-6">
+                    <div class="bank" id="bank" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">
+                        <div id="container" class="container">
+                           
+                            <h3 class="text-center fw-bold ">Deposit</h3>
+                            <input type="text" class="form-control mt-5 rounded-5 shadow-lg" id="damt" placeholder="Enter the Amount">
+                            <input type="Password" class="form-control mt-4 rounded-5 shadow-lg" id="dpswd" placeholder="Enter your Password">
+                            <div class="bttn text-center mt-4">
+                            <button onclick="deposit()" class="btn btn-primary w-50 rounded-5 mb-5 shadow-lg ">Deposit</button>
+                            <p id="dbal"></p>
+                            </div>
+                            
+                        </div>
+                        </div>
+                </div>
+                <div class="col-6">
+                    <div>
+                        <div class="bank" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">
+                            <div id="container" class="container">
+                               
+                                <h3 class="text-center fw-bold ">Withdraw</h3>
+                                <input type="text" class="form-control mt-5 rounded-5 shadow-lg" id="wamt" placeholder="Enter the Amount">
+                                <input type="Password" class="form-control mt-4 rounded-5 shadow-lg" id="wpswd" placeholder="Enter your Password">
+                                <div class="bttn text-center mt-4">
+                                <button onclick="withdraw()" class="btn btn-primary w-50  rounded-5 mb-5 shadow-lg ">Withdraw</button>
+                                <p id="wbal"></p>
+                                </div>
+                                
+                            </div>
+                            </div>           
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+  
+    </section>
+
+
+<script src="./Home_files/gsap.min.js.download"></script>
+<script src="./Home_files/home.js.download"></script>
+</body></html>

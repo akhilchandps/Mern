@@ -1,0 +1,90 @@
+
+
+
+1. List out the features of HTML5?
+
+Semantic Elements
+Audio and Video Support
+Canvas Elements
+Geolocation API
+Local Storage
+Responsive Images
+Web Workers
+Drag and Drop API
+Form Enhancements
+Web Sockets
+Micro Data
+Cross Document Messaging
+
+2. Difference Between HTML and HTML 5
+Features
+definition
+
+
+
+
+Multimedia support	.
+
+
+Storage	
+
+
+
+Browser compatibility	
+
+.	
+
+Graphics support	
+	Html
+A   hypertext markup language (HTML) is the primary language for developing web pages.
+
+
+Language in HTML does not have support for video and audio.	
+
+
+The HTML browser uses cache memory as temporary storage.	
+
+HTML is compatible with almost all browsers because it has been present for a long time, and the browser made modifications to support all the features	
+
+In HTML, vector graphics are possible with tools LikeSilver light, Adobe Flash, VML, etc.	Html5
+definition      HTML5 is a new version of HTML with new functionalities with markup language with Internet technologies.
+
+HTML5 supports both video and audio.
+
+The HTML browser uses cache memory as temporary storage
+
+In HTML5, we have many new tags, elements, and some tags that have been removed/modified, so only some browsers are fully compatible with HTML5.
+
+HTML5, vector graphics are supported by default.
+
+
+3. What is the formatting HTML?
+
+Formatting elements were designed to display special types of text:
+<b> -         Bold text
+<strong> -   Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+4. What is he Difference between HTML Elemnts And Tags?
+
+HTML Elements
+Element is a particular piece or portion of a webpage represented by HTML. In addition to improving the general structure and semantics of the text, it defines the structure and content of that section. With few exceptions for self-closing tags, HTML elements are defined by their start, content, and end tags. A hierarchy can be formed by items containing other components. Each HTML element on a webpage has a unique purpose and has a distinct meaning.
+The names of HTML elements, such as p>, h1>, div>, img>, etc., describe what they are. These names stand for various website elements or semantic parts.
+HTML Tags
+HTML tags are markup characters that specify the beginning and end of an HTML element. Angle brackets (>), which make up tags, are positioned around the names of elements to provide a valid HTML structure. They specify an element's limits within an HTML page.
+Opening tags and closing tags are the two different categories of HTML tags. An element's beginning and finish are indicated by the opening and closing tags, respectively. Some elements, referred to as self-closing elements, can be expressed as a single tag and don't need a closing tag.
+
+5. How can you make text appear in monospace font in HTML?
+The <tt> HTML element creates inline text which is presented using the user agent's default monospace font face.
+<tt> tag creates an inline text which is displayed in monospace or fixed-width font as it would appear on a teletype or typewriter.
+The terms monotype, monospace, and non-proportional have the same meaning. They are used interchangeably and describe a typeface the characters of which are the same number of pixels wide.
+Syntax
+The <tt> tag comes in pairs. The content is written between the opening (<tt>) and closing (</tt> ) tags.
+

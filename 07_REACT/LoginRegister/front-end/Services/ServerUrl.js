@@ -1,0 +1,1 @@
+export const serverUrl = 'https://validation-cz6p.onrender.com'

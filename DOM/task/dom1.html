@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>DOM getElementById</h1>
+
+    <p id="hi">This is the first paragraph</p>
+    <p>This is the second paragraph</p>
+    <p>This is the Third paragraph</p>
+
+    <button  onclick="GetId('red')">red</button>
+    <button  onclick="GetId('blue')">blue</button>
+    <button  onclick="GetId('green')">green</button>
+
+   <script>
+    function GetId(newcolor)
+    {
+       var btn=document.getElementById("hi")
+       console.log(btn);
+       btn.style.color=newcolor
+
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border="1">
+      <thead>
+        <tr>
+        <th>id</th>
+        <th>product</th>
+        <th>Action</th>
+        </tr>
+      </thead>
+    
+      <tbody>
+        <tr>
+            <td>200042</td>
+            <td><img src="https://images.unsplash.com/photo-1525824236856-8c0a31dfe3be?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdhdGVyZmFsbHxlbnwwfHwwfHx8MA%3D%3D" alt="" width="90px"></td>
+            <td><button onclick="Delete()">delete</button></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+            <td>200043</td>
+            <td><img src="https://images.unsplash.com/photo-1525824236856-8c0a31dfe3be?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdhdGVyZmFsbHxlbnwwfHwwfHx8MA%3D%3D" alt="" width="90px"></td>
+            <td><button onclick="Delete()">delete</button></td>
+        </tr>
+      </tbody>
+  
+    </table>
+
+
+    <script>
+     function Delete()
+     { 
+      
+        let dlt= confirm("Are confirm about bto delete it")
+        if(dlt)
+        {
+          console.log("User confirmed the Action");
+        }
+        else{
+          console.log("user cancelled the Action");
+        }
+     }
+    </script>
+</body>
+</html>

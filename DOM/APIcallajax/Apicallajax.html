@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+
+    .col .card
+    {
+      display: inline-block;
+    }
+</style>
+<body>
+    <h1 class="text-center m-5 text-primary">ToDo List</h1>
+
+       <div id="details" class="col  container ">
+
+       </div>
+
+
+
+
+  <script>
+    //AJAX API CALL or Request
+
+    //1. Create An XMLhttp request object
+
+    var requestObj = new XMLHttpRequest()
+
+    //2. connect or API call
+    requestObj.open('get' ,'https://jsonplaceholder.typicode.com/users')
+    //3.send an xmalhttp request
+    requestObj.send()
+    //4. set onreadystatechange
+    requestObj.onreadystatechange =()=>{
+        if(requestObj.status==200)
+        {
+            console.log(requestObj.responseText); //array of objects (JSON objects)
+            
+            let todoArray =JSON.parse(requestObj.responseText)
+            console.log(todoArray);
+            displayArray(todoArray)
+        }
+        else{
+            alert("failed to fetch data")
+        }
+    }
+    //5 Display the array into the browser
+
+    function displayArray(todoArray)
+    {
+        for(let todo of todoArray)
+        {              
+            htmldata=`
+            <div class="card" style="width:25rem; m-4;">
+  <div class="card-body">
+    <h5 class="card-title fs-1 text-center">${todo.id}</h5>
+    <h5 class="card-text">name:${todo.name}</h5>
+    <h5 class="card-text">username:${todo.username}</h5>
+    <h5 class="card-text">email:${todo.email}</h5>
+    <h5 class="card-text">street:${todo.address.street}</h5>
+    <h5 class="card-text">suit:${todo.address.suit}</h5>
+    <h5 class="card-text">city:${todo.address.city}</h5>
+    <h5 class="card-text">zipcode:${todo.address.zipcode}</h5>
+    <h5 class="card-text">lat:${todo.address.geo.lat}</h5>
+    <h5 class="card-text">lng:${todo.address.geo.lng}</h5>
+    <h5 class="card-text">phno:${todo.phone}</h5>
+    <h5 class="card-text">website:${todo.website}</h5>
+    <h5 class="card-text">company name:${todo.company.name}</h5>
+    <h5 class="card-text">catchphrase:${todo.company.catchPhrase}</h5>
+    <h5 class="card-text">bs:${todo.company.bs}</h5>
+    
+  </div>
+  
+</div>`
+              
+                details.innerHTML+=htmldata
+        }
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+  <div class="card-body">
+    // <h5 class="card-title">${todo.id}</h5>
+    // <p class="card-text">${todo.name}</p>
+    // <p class="card-text">${todo.username}</p>
+    // <p class="card-text">${todo.email}</p>
+    // <p class="card-text">${todo.address}</p>
+    // <p class="card-text">${todo.street}</p>
+    // <p class="card-text">${todo.suite}</p>
+    // <p class="card-text">${todo.city}</p>
+    // <p class="card-text">${todo.zipcode}</p>
+    // <p class="card-text">${todo.geo}</p>
+    // <p class="card-text">${todo.lat}</p>
+    // <p class="card-text">${todo.lng}</p>
+     -->

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1 id="head">DOM Manipulation</h1>
+    <h1 class="cls">DOM Methods</h1>
+
+    <ul>
+        <li class="cls">document.getElementById("Id name")</li>
+        <li>document.getElementsByclassname("Id name")</li>
+        <li>document.getElementsByTagName("Id name")</li>
+    </ul>
+    
+    <button onclick="AlertMe()">Submit</button>
+    <button>click</button>
+<!-- 1.document.getElementById("id_name") -->
+    <script>
+            const document1=document.getElementById("head")
+            document1.style.color="red"
+       
+
+        // 2.document.getElementsByclassname("class_name")
+
+        const document2 = document.getElementsByClassName("cls")
+        console.log(document2);  //html collection
+
+        //html collection covertion to Array
+        console.log(document3 = Array.from(document2)); //Array
+        console.log(document3.map(item=>item.style.color="blue"));
+
+
+            // 3.document.getElementsByTagName("Tag_name")
+
+            const document4=document.getElementsByTagName("li")
+            console.log(document4);
+               
+            console.log([...document4]);
+            [...document4].map(item=>item.style.color="green")
+
+
+              // 4.query selector
+
+              const document5=document.querySelector(".cls")
+              console.log(document5);
+
+              const document6=document.querySelectorAll(".cls")
+              console.log(document6);
+
+
+              function AlertMe()
+              {
+                alert("you are not allowed")
+
+              }
+
+              const btn=document.getElementsByTagName("button")
+              console.log(btn);
+
+              for(i=0;i<btn.length; i++)
+              {
+                btn[i].style.backgroundColor="pink"
+              }
+    </script>
+</body>
+</html>

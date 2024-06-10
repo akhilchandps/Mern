@@ -1,0 +1,130 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lobster&family=Nunito:wght@200&family=Oleo+Script&family=Oxygen:wght@300&family=Satisfy&display=swap');
+
+
+h1
+{
+ font-family: "Lobster";
+ text-align: center;
+}
+
+.div
+{
+    display: flex;
+  
+}
+.col1
+{
+    width: 280px;
+    height: 300px;
+    background-color: brown; 
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.col2
+{
+    width: 280px; 
+    height: 300px; 
+    background-color:rgb(151, 206, 206); 
+    margin: 20px;
+    border-radius: 10px;
+}
+.col3
+{
+    width: 280px; 
+    height: 300px; 
+    background-color: rgb(111, 119, 194); 
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.col4
+{
+    width: 280px; 
+    height: 300px; 
+    background-color: rgb(177, 76, 143);
+     margin: 20px;
+     border-radius: 10px;
+}
+p
+{
+    font-family:Lobster; 
+    font-size: 23px;
+}
+
+.sr button
+{
+    font-family: Lobster; 
+    font-size: 25px;
+}
+p{
+    text-align: center;
+}
+
+@media screen and (min-width:400px) and (max-width:1024px)
+{
+    h1
+{
+ font-family: "Lobster";
+ text-align: center;
+}
+
+.div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.col1
+{
+    width: 230px;
+    height: 230px;
+    background-color: brown; 
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.col2
+{
+    width: 230px; 
+    height: 230px; 
+    background-color:rgb(151, 206, 206); 
+    margin: 20px;
+    border-radius: 10px;
+}
+.col3
+{
+    width: 230px; 
+    height: 230px; 
+    background-color: rgb(111, 119, 194); 
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.col4
+{
+    width: 230px; 
+    height: 230px; 
+    background-color: rgb(177, 76, 143);
+     margin: 20px;
+     border-radius: 10px;
+}
+p
+{
+    font-family:Lobster; 
+    font-size: 23px;
+}
+
+.sr button
+{
+    font-family: Lobster; 
+    font-size: 25px;
+}
+p{
+    text-align: center;
+   
+}
+}

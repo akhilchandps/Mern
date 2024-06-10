@@ -1,0 +1,78 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Black+Ops+One&family=DM+Serif+Display&family=Dhurjati&family=Dosis:wght@200&family=Exo+2:wght@500;700&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Kaushan+Script&family=Merriweather:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300;400&family=Oswald&family=PT+Serif:ital@1&family=Playfair+Display&family=Poppins:wght@200&family=Rethink+Sans&family=Roboto+Condensed:wght@200&family=Sarabun:wght@100&family=Shadows+Into+Light&family=Teko:wght@300&family=Vina+Sans&display=swap');
+
+*
+{
+   margin: 0;
+   padding: 0;
+}
+#imge
+{
+    padding-left: 70px;
+    padding-right: 500px;
+}
+.container-fluid a
+{
+    text-decoration: none;
+    color: white;
+    font-family: Open Sans;
+    font-size: 18px;
+    
+}
+.container-fluid a :hover{
+
+    color: grey;
+}
+
+.home2
+{
+    background-image: url(https://i.ytimg.com/vi/WROq6QMy0qE/maxresdefault.jpg);
+    width: 100%;
+    height: 700px;
+}
+.home2 ul{
+   
+    font-family: Open Sans;
+    position: absolute;
+    top: 50%;
+}
+.home2 a{
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    text-shadow: 3px 3px 8px black;
+    padding-left: 50px;
+
+}
+
+.home2 a :hover{
+
+    color: grey;
+}
+.home2 li{
+    padding-bottom: 40px;
+}
+footer{
+
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    font-family: Open Sans;
+    color: white;
+}
+h6{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+#last i
+{
+    color: white;
+    font-size: 15px;
+    
+}
+
+#last
+{
+    padding-left: 700px;
+   
+}

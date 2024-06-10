@@ -1,0 +1,20 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.home
+{
+    width: 100%;
+    background-color: rgb(185, 82, 82);
+    height: 90px;
+    color: beige;
+    
+    
+}
+.home ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 30px;
+} */

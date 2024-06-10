@@ -1,0 +1,80 @@
+
+.navbar{
+
+    box-shadow: 3px 3px 8px rgb(194, 192, 192);
+   
+}
+.container 
+{
+    display: flex;
+}
+.row .col1
+{
+    padding-right: 120px;
+    text-align: justify;
+    margin-top: 40px;
+}
+.col1 p
+{
+    font-size: 23px;
+    margin-top: 30px;
+}
+.col1 button{
+
+    font-size: 20px;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.col2 img
+{
+    width: 640px;
+    height: 590px;
+    object-fit: contain;
+}
+
+.col3 img
+{
+    width: 640px;
+    height: 590px;
+    object-fit: contain;
+}
+.row2{
+
+    display: flex;
+}
+.col4 p
+{
+    font-size: 23px;
+    margin-top: 30px;
+}
+.col4{
+
+    margin-top: 80px;
+}
+
+.navbar-nav 
+{
+    position: absolute;
+    right: 120px;
+}
+.nav-item:hover{
+
+    background-color: rgb(97, 97, 194);
+    border-radius: 20px;
+    transform: translate(0,-3px);
+    
+}
+.nav-item{
+    transition: 0.2s;
+    border-radius: 20px;
+     margin-left: 40px;
+}
+.nav-item:hover a
+{
+    color: azure;
+   
+}
+
+

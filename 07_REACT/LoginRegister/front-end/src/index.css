@@ -1,0 +1,17 @@
+.row{
+  background: linear-gradient(to right, #4ed89f, #a7e7c2)
+}
+.contain img{
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+}
+.contain button{
+  position: absolute;
+  top:50%;
+  left: 40%;
+
+
+
+}

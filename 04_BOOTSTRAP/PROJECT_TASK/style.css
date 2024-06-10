@@ -1,0 +1,1834 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Black+Ops+One&family=Dhurjati&family=Dosis:wght@200&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Kaushan+Script&family=Merriweather:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300&family=Oswald&family=PT+Serif:ital@1&family=Playfair+Display&family=Poppins:wght@200&family=Roboto+Condensed:wght@200&family=Sarabun:wght@100&family=Shadows+Into+Light&family=Teko:wght@300&family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Black+Ops+One&family=Dhurjati&family=Dosis:wght@200&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Kaushan+Script&family=Merriweather:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300&family=Oswald&family=PT+Serif:ital@1&family=Playfair+Display&family=Poppins:wght@200&family=Roboto+Condensed:wght@200&family=Sarabun:wght@100&family=Shadows+Into+Light&family=Teko:wght@300&family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Black+Ops+One&family=Dhurjati&family=Dosis:wght@200&family=Exo+2:wght@700&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Kaushan+Script&family=Merriweather:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300&family=Oswald&family=PT+Serif:ital@1&family=Playfair+Display&family=Poppins:wght@200&family=Roboto+Condensed:wght@200&family=Sarabun:wght@100&family=Shadows+Into+Light&family=Teko:wght@300&family=Vina+Sans&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Black+Ops+One&family=Dhurjati&family=Dosis:wght@200&family=Exo+2:wght@700&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Kaushan+Script&family=Merriweather:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300&family=Oswald&family=PT+Serif:ital@1&family=Playfair+Display&family=Poppins:wght@200&family=Rethink+Sans&family=Roboto+Condensed:wght@200&family=Sarabun:wght@100&family=Shadows+Into+Light&family=Teko:wght@300&family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Black+Ops+One&family=DM+Serif+Display&family=Dhurjati&family=Dosis:wght@200&family=Exo+2:wght@700&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Kaushan+Script&family=Merriweather:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300&family=Oswald&family=PT+Serif:ital@1&family=Playfair+Display&family=Poppins:wght@200&family=Rethink+Sans&family=Roboto+Condensed:wght@200&family=Sarabun:wght@100&family=Shadows+Into+Light&family=Teko:wght@300&family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Black+Ops+One&family=DM+Serif+Display&family=Dhurjati&family=Dosis:wght@200&family=Exo+2:wght@500;700&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Kaushan+Script&family=Merriweather:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300&family=Oswald&family=PT+Serif:ital@1&family=Playfair+Display&family=Poppins:wght@200&family=Rethink+Sans&family=Roboto+Condensed:wght@200&family=Sarabun:wght@100&family=Shadows+Into+Light&family=Teko:wght@300&family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Black+Ops+One&family=DM+Serif+Display&family=Dhurjati&family=Dosis:wght@200&family=Exo+2:wght@500;700&family=Exo:wght@100&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Kaushan+Script&family=Merriweather:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300;400&family=Oswald&family=PT+Serif:ital@1&family=Playfair+Display&family=Poppins:wght@200&family=Rethink+Sans&family=Roboto+Condensed:wght@200&family=Sarabun:wght@100&family=Shadows+Into+Light&family=Teko:wght@300&family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Black+Ops+One&family=DM+Serif+Display&family=Dhurjati&family=Dosis:wght@200&family=Exo+2:wght@500;700&family=Exo:wght@100&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Kaushan+Script&family=Merriweather:ital,wght@0,300;1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300;400&family=Oswald&family=PT+Serif:ital@1&family=Playfair+Display&family=Poppins:wght@200&family=Rethink+Sans&family=Roboto+Condensed:wght@200&family=Sarabun:wght@100&family=Shadows+Into+Light&family=Teko:wght@300&family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Black+Ops+One&family=DM+Serif+Display&family=Dhurjati&family=Dosis:wght@200&family=Exo+2:wght@500;700&family=Exo:wght@100&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Kaushan+Script&family=Merriweather:ital,wght@0,300;1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300;400&family=Oswald&family=PT+Serif:ital@1&family=Passion+One&family=Playfair+Display&family=Poppins:wght@200&family=Rethink+Sans&family=Roboto+Condensed:wght@200&family=Sarabun:wght@100&family=Shadows+Into+Light&family=Teko:wght@300&family=Vina+Sans&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+}
+nav{
+    background-color: #407F82;
+    width: 100%;
+    height: 100px;
+    font-family:Gt,sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.6px;
+    font-weight: 300;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.vid
+{
+    position: relative;
+    bottom: 30px;
+}
+nav
+{
+    position: relative;
+    bottom: 30px;
+}
+nav ul
+{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 40px;
+   /* word-spacing: 0px; */
+}
+
+div ul h1
+{
+   font-size: 89.3902px;
+   font-weight: 300;
+    
+}
+
+div ul h3
+{
+   font-size: 51.1337px;
+   font-weight: 300;
+    
+}
+div ul
+{
+    position: absolute;
+    bottom: 30%;
+    color: white;
+    font-family: PT Serif;
+    left: 10%;
+    list-style: none;
+    
+}
+div ul a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+ 
+#socialmedia a
+{
+    font-size: 20px;
+   
+}
+#socialmedia i
+{
+    transition: 0.1s;
+}
+#socialmedia i:hover
+{
+    transform: scale(1.3);
+}
+.home
+{
+    background-color: #407F82;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+    
+}
+.home h1{
+    font-family: Exo 2;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    /* text-shadow: 3px 3px 8px black; */
+}
+#para1{
+    font-size: 20px;
+    font-family: Open Sans;
+    margin-top: 20px;
+    /* text-shadow: 3px 3px 8px black; */
+}
+.trip
+{
+    display: flex;
+
+}
+.col1
+{
+    background-color: aqua;
+   background-image: url(https://images.pexels.com/photos/1080421/pexels-photo-1080421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: 0.5s;
+}
+.col1:hover
+{
+ transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+.col2
+{
+    background-color: aqua;
+   background-image: url(https://images.pexels.com/photos/5807688/pexels-photo-5807688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 450px;
+    height: 400px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: 0.5s;
+}
+.col2:hover
+{
+ transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+.col3
+{
+    background-color: aqua;
+   background-image: url(https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 500px;
+    height: 400px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: 0.5s;
+}
+.col3:hover
+{
+ transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+.col4
+{
+    background-color: aqua;
+   background-image: url(https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: 0.5s;
+}
+.col4:hover
+{
+ transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+
+.col5
+{
+    background-color: aqua;
+    background-image: url(https://images.pexels.com/photos/19482075/pexels-photo-19482075/free-photo-of-man-sitting-on-a-rock-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=600);
+     width: 450px;
+     height: 400px;
+     margin: 5px;
+     background-size: cover;
+     background-repeat:no-repeat;
+     transition: 0.5s;
+}
+.col5:hover
+{
+ transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+.col6
+{
+    background-color: aqua;
+    background-image: url(https://images.pexels.com/photos/1223649/pexels-photo-1223649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+     width: 500px;
+     height: 400px;
+     margin: 5px;
+     background-size: cover;
+     background-repeat:no-repeat;
+     transition: 0.5s;
+}
+.col6:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+.div
+{
+  display: flex;
+}
+#h11
+{
+    position: relative;
+    top: 70%;
+    left: 30%;
+    color: white;
+    font-family: Anonymous Pro;
+    text-shadow: 3px 3px 8px black;
+    
+}
+#h12
+{
+    position: relative;
+    top: 70%;
+    left: 20%;
+    color: white;
+    font-family: Anonymous Pro;
+    text-shadow: 3px 3px 8px black;
+}
+div a{
+    text-decoration: none;
+}
+
+.home4
+{
+    background-color: #407F82;
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.home4 a {
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+   
+}
+.home4 h6
+{
+    font-family: Open Sans;
+    font-size: 20px;
+   
+}
+.home4 i
+{
+    font-size: 50px;
+}
+ 
+.home4 a :hover{
+
+    color: black;
+}
+
+/* Hover */
+nav a {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
+  
+ nav a:hover {
+    color: #ffffff;
+  }
+  
+  nav a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+ nav  a:hover::before {
+    transform: scaleX(1);
+  }    
+
+/* Hover */
+.home5
+{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/22/19/25/man-1850181_1280.jpg);
+    width: 100%;
+    height: 700px;
+    color: white;
+
+}
+.home5 h1
+{
+    font-family: Exo 2;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.home5 p
+{
+    
+    font-family: open sans;
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+}
+.home5 div{
+
+    position: relative;
+    top: 300px;
+    
+}
+.home5 i
+{
+   font-size: 60px;
+   position: relative;
+   left: 630px;
+   padding-bottom: 50px;
+   
+    
+}
+.home5 button
+{
+  font-family: open sans; 
+  
+}
+.home5 a{
+    color: black;
+}
+ /* home6 */
+.home6{
+    width: 100%;
+    padding: 20px;
+   margin-bottom: 30px;
+    background: #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box{
+    width: 280px;
+    height: 400px;
+    background: orange;
+margin: 0px 10px;
+transition: 1s;
+
+} 
+.box a
+{
+    color: aliceblue;
+    text-shadow: 3px 3px 8px black;
+}
+.box:hover{
+    transform: scale(1.1);
+    /* background: #dddddd;
+    z-index: 2; */
+    box-shadow: 2px 2px 2px #3b3a3a;
+    
+}
+
+.sect h1{
+    text-align: center;
+    color: #D1DEEA;
+    background-color: #407F82;
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    font-family: Exo 2;
+    font-weight: 700;
+    font-size: 50px;
+}
+.box1
+{
+    background-image: url(https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_640.jpg);
+    background-position: cover;
+    
+}
+.box1
+{
+    color: white;
+}
+.box h5{
+
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: Exo 2;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.box p{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: open sans;
+    font-size: 20px;
+}
+
+
+.box2
+{
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+    background-position: center;
+    
+}
+.box2
+{
+    color: white;
+}
+.box h5{
+
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: Exo 2;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.box p{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: open sans;
+    font-size: 20px;
+}
+
+.box3
+{
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/24/11/46/castles-2534343_1280.jpg);
+    background-position: center;
+    
+}
+.box3
+{
+    color: white;
+}
+.box h5{
+
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: Exo 2;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.box p{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: open sans;
+    font-size: 20px;
+}
+
+.box4
+{
+    background-image: url(https://st3.depositphotos.com/12985656/15711/i/450/depositphotos_157114924-stock-photo-top-view-of-laptop-diaries.jpg);
+    background-position: cover;
+    
+}
+.box4
+{
+    color: white;
+}
+.box h5{
+
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: Exo 2;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.box p{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: open sans;
+    font-size: 20px;
+}
+
+.col21
+{
+    width: 100%;
+    background-color: aqua;
+    height: 600px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/19/15/38/craftsman-1839920_1280.jpg);
+    color: white;
+    position: relative;
+    
+}
+ #stories a{
+     color: black;
+}
+#stories
+{
+    padding-top: 260px;
+    text-align: center;
+}
+#stories h1
+{
+    font-family: DM Serif Display;
+    font-size: 60px;
+    text-shadow: 3px 3px 8px black;
+}
+
+#stories  h5{
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+#stories button{
+
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.read2
+{
+    display: flex;
+ 
+}
+.col51
+{
+    background-color: aquamarine;
+    width: 700px;
+    height: 246px;
+    background-image:url(https://cdn.pixabay.com/photo/2016/11/14/05/21/children-1822688_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    transition:transform .3s;
+}
+
+.read2 :hover{
+    transform: scaleY(1.1);
+  
+}
+.read3 :hover{
+
+    transform: scaleY(1.1);
+}
+.col52 :hover{
+    box-shadow: 3px 3px 8px black;
+}
+
+.col52
+{
+    background-color: aquamarine;
+    width: 700px;
+    height: 246px;
+    background-image:url(https://cdn.pixabay.com/photo/2017/10/13/16/06/face-painting-2848057_640.jpg);
+    background-position: center;
+    margin: 10px;
+    transition:transform .3s;
+}
+.col53
+{
+    background-color: aquamarine;
+    width: 700px;
+    height: 246px;
+    background-image:url(https://cdn.pixabay.com/photo/2019/04/14/17/51/seat-4127309_640.jpg);
+    background-position: cover;
+    margin: 10px;
+    transition:transform .3s;
+} 
+.col54
+{
+    background-color: aquamarine;
+    width: 700px;
+    height: 246px;
+    background-image:url(https://cdn.pixabay.com/photo/2017/04/10/16/40/vacation-2218989_640.jpg);
+    background-position: center;
+    margin: 10px;
+    transition:transform .3s;
+}
+
+.readz{
+
+color: white;
+    padding-top: 160px;
+  padding-left: 50px;
+  text-shadow: 3px 3px 8px black;
+
+}
+.raedz h5{
+
+    color: #ffffff;
+
+}
+.readz1 
+{
+    color: white;
+    text-shadow: 3px 3px 8px black;
+    padding-top: 180px;
+   padding-left: 50px;
+
+}
+.readz1 button{
+    position: relative;
+    left: 310px;
+}
+.readz1 h2{
+    padding-right: 20px;
+}
+.readz2
+{
+    
+    color: white;
+    text-shadow: 3px 3px 8px black;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.read3
+{
+    display: flex;
+}
+.readz3
+{
+    color: white;
+    text-shadow: 3px 3px 8px black;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.readz3 button
+{
+    position: relative;
+    left: 199px;
+}
+.readz2 button
+{
+    position: relative;
+    left: 267px;
+}
+
+.btn 
+{
+   box-shadow: 3px 3px 8px b;
+}
+
+.blog
+{
+    width: 100%;
+    height: 790px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/04/54/photographer-1867417_1280.jpg);
+
+}
+#he
+{
+    background-color: #407F82;
+    color: #ddd;
+    text-align: center;
+    font-family: Exo 2;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.blog a{
+    font-family: DM Serif Display;
+    color: white;
+    text-shadow: 3px 3px 8px black;
+    
+}
+.blog h1{
+    font-weight: 800;
+    font-size: 55px;
+}
+.blog h2
+{
+    font-size: 40px;
+}
+.blog
+{
+    padding-top: 400px;
+}
+.overlay
+{
+    padding-top: 50px;
+    padding-left: 30px;
+    
+}
+.overlay .card
+{
+    transition: transform .2s;
+}
+.overlay .card:hover
+{
+    box-shadow: 3px 3px 8px violet;
+    transform: scale(1.1);
+}
+.overlay a
+{
+    color: rgb(255, 255, 255);
+    font-family: DM Serif Display;
+}
+.overlay .card
+{
+    background-color: #407F82;
+}
+.col51 .readz button:hover
+{
+   background-color: #0e0c0c;
+   color: yellow;
+}
+.col51 .readz button h5:hover
+{
+    background-color: #111010;
+    color: yellow;
+}
+
+.col52  button:hover
+{
+   background-color: #0e0c0c;
+   color: yellow;
+}
+.col52 button h5:hover
+{
+    background-color: #111010;
+    color: yellow;
+}
+
+.col53  button:hover
+{
+   background-color: #0e0c0c;
+   color: yellow;
+}
+.col53 button h5:hover
+{
+    background-color: #111010;
+    color: yellow;
+}
+.col54  button:hover
+{
+   background-color: #0e0c0c;
+   color: yellow;
+}
+.col54 button h5:hover
+{
+    background-color: #111010;
+    color: yellow;
+}
+.cardk
+{
+   display: flex;
+   padding-left: 40px;
+   padding-top: 30px; 
+   padding-bottom: 10px;
+   background-color: rgb(178, 206, 214);
+  
+}
+.cardk h5
+{
+    font-family: DM Serif Display;
+    font-size: 24px;
+}
+.cardk p
+{
+   color: #263E3E;
+}
+.cardk button 
+
+{
+    background-color: #2C4A4A;
+   font-family:  Open Sans;
+   font-weight: 700;
+}
+#buy 
+{
+   
+    background-color: #2C4A4A;
+    font-family:  Open Sans;
+   font-weight: 700;
+   position: relative;
+   left: 470px;
+   margin-top: 70px;
+  margin-bottom: 40px;
+   
+}
+
+.bean
+{
+  width: 100%;
+  height: 250px;
+  background-color: #407F82;
+ margin-top: 40px;
+ color: white;
+ padding-top: 50px;
+ padding-left: 50px;
+}
+hr{
+    display: block
+}
+.vertical
+{
+    width: 3px;
+    height: 180px;
+    background-color: white;
+    position: relative;
+   bottom: 250px;
+
+}
+#head2
+
+{
+    position: relative;
+    left: 800px;
+    bottom: 120px;
+}
+#btnn
+{
+    position: relative;
+    right: 510px;
+}
+.modal
+{
+    color:#4B4c4c
+}
+.modal h1
+{
+    text-align: center;
+    font-family: open sans;
+    
+}
+#b1
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.re
+{
+   width: 100%;
+   height: 500px;
+   background: url(https://media.istockphoto.com/id/1443915213/photo/family-with-car-travel-driving-road-trip-summer-vacation-in-car-in-the-sunset-dad-mom-and.jpg?s=612x612&w=0&k=20&c=u0loJTwv17iHxGkynpFYlZ6mP3jyoQJPkfY_adv_8wM=);
+    background-repeat: no-repeat;
+}
+
+.des
+{
+    width: 100%;
+    /* height: 800px; */
+    background-image: url(https://media.istockphoto.com/id/1411923266/vector/world-map.jpg?s=612x612&w=0&k=20&c=l7nRKE2EYbR-zFjhkJ6zguNPeJYzYW9pAKHzZZUOn5I=);
+    background-repeat: no-repeat;
+    
+    
+}
+.dese h1
+{
+   
+    font-size: 80px;
+    color: #9899AB;
+    font-family: Passion One;
+}
+.dese
+{
+    padding-left: 800px;
+
+}
+.videos h1
+{
+    
+    font-family: Passion One;
+    font-size: 80px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #407F82;
+    color:  #e7e7e7;
+    margin-top: 60px;
+}
+.videos iframe
+{
+    padding-left: 90px;
+   
+}
+.ifr
+{
+    background-color: rgb(0, 0, 0);
+}
+/* .col51:hover
+{
+    filter: brightness(50%);
+    
+}
+.col51 h2:hover
+{
+    color: white;
+} */
+
+
+/* median query */
+@media screen and (max-width:400px) 
+{
+    body{
+        width: 400px;
+        margin:0px;
+        padding: 0px;
+    }
+
+  /* 1st section */
+
+  nav{
+    background-color: #407F82;
+    width: 400px;
+    height: 300px;
+    font-family:Gt,sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.6px;
+    font-weight: 300;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.vid
+{
+    position: relative;
+    bottom: 30px;
+}
+nav
+{
+    position: relative;
+    bottom: 30px;
+}
+nav ul
+{
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 40px;
+   /* word-spacing: 0px; */
+}
+
+div ul h1
+{
+   font-size: 89.3902px;
+   font-weight: 300;
+    
+}
+
+ /* 2nd section    */
+
+
+#tope h1
+{
+   font-size: 20px;
+   font-weight: 300;
+    
+}
+
+div ul h3
+{
+   font-size: 20px;
+   font-weight: 300;
+    
+}
+div ul
+{
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    font-family: PT Serif;
+    left: 10%;
+    list-style: none;
+    padding-left: 20px;
+}
+div ul a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+ /* 2nd section */
+ .trip
+{
+    flex-direction: column;
+
+    
+}
+.div
+{
+    flex-direction: column;
+}
+.col1
+{
+    background-color: aqua;
+   background-image: url(https://images.pexels.com/photos/1080421/pexels-photo-1080421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+.col1:hover
+{
+ transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+.col2
+{
+    background-color: aqua;
+   background-image: url(https://images.pexels.com/photos/5807688/pexels-photo-5807688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+.col2:hover
+{
+ transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+.col3
+{
+    background-color: aqua;
+   background-image: url(https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+.col3:hover
+{
+ transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+.col4
+{
+    background-color: aqua;
+   background-image: url(https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+.col4:hover
+{
+ transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+
+.col5
+{
+    background-color: aqua;
+    background-image: url(https://images.pexels.com/photos/19482075/pexels-photo-19482075/free-photo-of-man-sitting-on-a-rock-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=600);
+     width: 300px;
+     height: 300px;
+     margin: 5px;
+     background-size: cover;
+     background-repeat:no-repeat;
+     transition: 0.5s;
+     margin-left: 50px;
+}
+.col5:hover
+{
+ transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+.col6
+{
+    background-color: aqua;
+    background-image: url(https://images.pexels.com/photos/1223649/pexels-photo-1223649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+     width: 300px;
+     height: 300px;
+     margin: 5px;
+     background-size: cover;
+     background-repeat:no-repeat;
+     transition: 0.5s;
+     margin-left: 50px;
+}
+.col6:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 8px black;
+}
+
+  /* 3rd section */
+
+.home4
+{
+    background-color: #407F82;
+    width: 400px;
+    height: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.home4 a {
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 20px;
+   
+}
+.home4 h6
+{
+    font-family: Open Sans;
+    font-size: 17px;
+   
+}
+.home4 i
+{
+    font-size: 30px;
+}
+ 
+.home4 a :hover{
+
+    color: black;
+}
+
+/* section4 */
+.cardk
+{
+   flex-direction: column;
+   padding-left: 40px;
+   padding-right: 30px;
+   padding-top: 30px; 
+   padding-bottom: 10px;
+   background-color: rgb(178, 206, 214);
+  
+}
+.cardk h5
+{
+    font-family: DM Serif Display;
+    font-size: 24px;
+}
+.cardk p
+{
+   color: #263E3E;
+}
+.cardk button 
+
+{
+    background-color: #2C4A4A;
+   font-family:  Open Sans;
+   font-weight: 700;
+}
+
+/* section5 */
+.home5
+{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/22/19/25/man-1850181_1280.jpg);
+    width: 400px;
+    height: 900px;
+    color: white;
+    background-repeat: no-repeat
+
+}
+.home5 h1
+{
+    font-family: Exo 2;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.home5 p
+{
+    
+    font-family: open sans;
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+}
+.home5 div{
+
+    position: relative;
+    top: 100px;
+    
+}
+/* #joi
+{
+    position: relative;
+    bottom: 250px;
+} */
+.home5 i
+{
+   font-size: 60px;
+   position: relative;
+   left: 170px;
+   padding-bottom: 50px;
+   
+    
+}
+.home5 button
+{
+  font-family: open sans; 
+  
+}
+.home5 a{
+    color: black;
+}
+
+/* #section6 */
+/* home6 */
+.home6{
+    width: 400px;
+    padding: 20px;
+   margin-bottom: 30px;
+    background: #ddd;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box{
+    width: 280px;
+    height: 400px;
+    background: orange;
+   margin: 20px;
+   margin-left: 50px;
+  transition: 1s;
+
+} 
+.box a
+{
+    color: aliceblue;
+    text-shadow: 3px 3px 8px black;
+}
+.box:hover{
+    transform: scale(1.1);
+    /* background: #dddddd;
+    z-index: 2; */
+    box-shadow: 2px 2px 2px #3b3a3a;
+    
+}
+
+.sect h1{
+    text-align: center;
+    color: #D1DEEA;
+    background-color: #407F82;
+    width: 400px;
+    height: 120px;
+    margin-top: 30px;
+    font-family: Exo 2;
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 40px;
+}
+.box1
+{
+    background-image: url(https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_640.jpg);
+    background-position: cover;
+    
+}
+.box1
+{
+    color: white;
+}
+.box h5{
+
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: Exo 2;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.box p{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: open sans;
+    font-size: 20px;
+}
+
+
+.box2
+{
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+    background-position: center;
+    
+}
+.box2
+{
+    color: white;
+}
+.box h5{
+
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: Exo 2;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.box p{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: open sans;
+    font-size: 20px;
+}
+
+.box3
+{
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/24/11/46/castles-2534343_1280.jpg);
+    background-position: center;
+    
+}
+.box3
+{
+    color: white;
+}
+.box h5{
+
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: Exo 2;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.box p{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: open sans;
+    font-size: 20px;
+}
+
+.box4
+{
+    background-image: url(https://st3.depositphotos.com/12985656/15711/i/450/depositphotos_157114924-stock-photo-top-view-of-laptop-diaries.jpg);
+    background-position: cover;
+    
+}
+.box4
+{
+    color: white;
+}
+.box h5{
+
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: Exo 2;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.box p{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: open sans;
+    font-size: 20px;
+}
+
+/* section7 */
+.col21
+{
+    width:400px;
+    background-color: aqua;
+    height: 600px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/19/15/38/craftsman-1839920_1280.jpg);
+    color: white;
+    position: relative;
+    
+}
+ #stories a{
+     color: black;
+}
+#stories
+{
+    padding-top: 180px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#stories h1
+{
+    font-family: DM Serif Display;
+    font-size: 50px;
+    text-shadow: 3px 3px 8px black;
+}
+
+#stories  h5{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#stories button{
+
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* section8 */
+
+.read2
+{
+  flex-direction: column;
+ 
+}
+.col51
+{
+    background-color: aquamarine;
+    width:300px;
+    height: 246px;
+    background-image:url(https://cdn.pixabay.com/photo/2016/11/14/05/21/children-1822688_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    transition:transform .3s;
+    margin-left: 50px;
+}
+
+.read2 :hover{
+    transform: scaleY(1.1);
+  
+}
+.read3 :hover{
+
+    transform: scaleY(1.1);
+}
+.col52 :hover{
+    box-shadow: 3px 3px 8px black;
+}
+
+.col52
+{
+    background-color: aquamarine;
+    width: 300px;
+    height: 246px;
+    background-image:url(https://cdn.pixabay.com/photo/2017/10/13/16/06/face-painting-2848057_640.jpg);
+    background-position: center;
+    margin: 10px;
+    transition:transform .3s;
+    margin-left: 50px;
+}
+.col53
+{
+    background-color: aquamarine;
+    width: 300px;
+    height: 246px;
+    background-image:url(https://cdn.pixabay.com/photo/2019/04/14/17/51/seat-4127309_640.jpg);
+    background-position: cover;
+    margin: 10px;
+    transition:transform .3s;
+     margin-left: 50px;
+} 
+.col54
+{
+    background-color: aquamarine;
+    width: 300px;
+    height: 246px;
+    background-image:url(https://cdn.pixabay.com/photo/2017/04/10/16/40/vacation-2218989_640.jpg);
+    background-position: center;
+    margin: 10px;
+    transition:transform .3s;
+    margin-left: 50px;
+}
+
+.readz{
+
+color: white;
+    padding-top: 160px;
+  padding-left: 30px;
+  text-shadow: 3px 3px 8px black;
+
+}
+.readz button
+{
+    position: relative;
+    left: 20px;
+}
+.raedz h5{
+
+    color: #ffffff;
+
+}
+.readz1 
+{
+    color: white;
+    text-shadow: 3px 3px 8px black;
+    padding-top: 180px;
+   padding-left: 50px;
+
+}
+.readz1 button{
+    position: relative;
+    left: 23px;
+}
+.readz1 h2{
+    padding-right: 10px;
+    
+}
+.readz2
+{
+    
+    color: white;
+    text-shadow: 3px 3px 8px black;
+    padding-top: 150px;
+    padding-left: 23px;
+    
+}
+.readz2 h2
+{
+    padding-right: 3px;
+}
+.read3
+{
+    flex-direction: column;
+}
+.readz3
+{
+    color: white;
+    text-shadow: 3px 3px 8px black;
+    padding-top: 150px;
+    padding-left: 10px;
+}
+.readz3 button
+{
+    position: relative;
+    left: 150px;
+}
+.readz2 button
+{
+    position: relative;
+    left: 3px;
+}
+
+.btn 
+{
+   box-shadow: 3px 3px 8px b;
+}
+
+/* section9 */
+.card
+{
+    margin-right: 30px;
+}
+
+.overlay
+{
+    padding-top: 50px;
+    padding-left: 30px;
+    
+}
+.overlay .card
+{
+    transition: transform .2s;
+}
+.overlay .card:hover
+{
+    box-shadow: 3px 3px 8px violet;
+    transform: scale(1.1);
+}
+.overlay a
+{
+    color: rgb(255, 255, 255);
+    font-family: DM Serif Display;
+}
+.overlay .card
+{
+    background-color: #407F82;
+}
+.col51 .readz button:hover
+{
+   background-color: #0e0c0c;
+   color: yellow;
+}
+.col51 .readz button h5:hover
+{
+    background-color: #111010;
+    color: yellow;
+}
+
+.col52  button:hover
+{
+   background-color: #0e0c0c;
+   color: yellow;
+}
+.col52 button h5:hover
+{
+    background-color: #111010;
+    color: yellow;
+}
+
+.col53  button:hover
+{
+   background-color: #0e0c0c;
+   color: yellow;
+}
+.col53 button h5:hover
+{
+    background-color: #111010;
+    color: yellow;
+}
+.col54  button:hover
+{
+   background-color: #0e0c0c;
+   color: yellow;
+}
+.col54 button h5:hover
+{
+    background-color: #111010;
+    color: yellow;
+}
+.cardk
+{
+   display: flex;
+   padding-left: 40px;
+   padding-top: 30px; 
+   padding-bottom: 10px;
+   background-color: rgb(178, 206, 214);
+  
+}
+.cardk h5
+{
+    font-family: DM Serif Display;
+    font-size: 24px;
+}
+.cardk p
+{
+   color: #263E3E;
+}
+.cardk button 
+
+{
+    background-color: #2C4A4A;
+   font-family:  Open Sans;
+   font-weight: 700;
+}
+#buy 
+{
+   
+    background-color: #2C4A4A;
+    font-family:  Open Sans;
+   font-weight: 700;
+   position: relative;
+   left: 10px;
+   margin-top: 20px;
+  margin-bottom: 40px;
+   width: 200px;
+   margin-left: 70px;
+   
+}
+
+   /* section10 */
+   
+   .des
+   {
+       width: 440px;
+       height: 200px;
+       /* height: 800px; */
+       background-image: url(https://media.istockphoto.com/id/1411923266/vector/world-map.jpg?s=612x612&w=0&k=20&c=l7nRKE2EYbR-zFjhkJ6zguNPeJYzYW9pAKHzZZUOn5I=);
+       background-repeat: no-repeat;
+       color: white;
+       
+       
+   }
+   
+   .dese h1
+   {
+      
+       font-size: 30px;
+       color: #fefeff;
+       font-family: Passion One;
+   }
+   .dese
+   {
+       padding-left: 20px;
+       padding-top: 3px;
+   }
+   .dese button
+   {
+    color: #fefeff;
+    font-size: 15px;
+   }
+   .dese p
+   {
+    padding-right: 30px
+   };
+
+   /* section11 */
+   .videos h1
+{
+    
+    font-family: Passion One;
+    font-size: 80px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #407F82;
+    color:  #e7e7e7;
+    margin-top: 60px;
+}
+.videos iframe
+{
+    padding-left: 10px;
+    /* box-shadow: 3px 3px 8px rgb(204, 117, 117); */
+   
+}
+iframe
+{
+    width: 400px;
+    height: 190px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/* section13 */
+
+.bean
+{
+  width: 100%;
+  height: 300px;
+  background-color: #407F82;
+ margin-top: 20px;
+ color: white;
+ padding-top: 20px;
+ padding-left: 50px;
+}
+hr{
+    display: block
+}
+
+#head2
+
+{
+    position: relative;
+    left: 20px;
+    bottom: 120px;
+    padding-top: 140px;
+}
+#btnn
+{
+    position: relative;
+    right: 20px;
+    top: 20px;
+    right: 60px;
+}
+.modal
+{
+    color:#4B4c4c
+}
+.modal h1
+{
+    text-align: center;
+    font-family: open sans;
+    
+}
+#b1
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.re
+{
+   width: 100%;
+   height: 500px;
+   background: url(https://media.istockphoto.com/id/1443915213/photo/family-with-car-travel-driving-road-trip-summer-vacation-in-car-in-the-sunset-dad-mom-and.jpg?s=612x612&w=0&k=20&c=u0loJTwv17iHxGkynpFYlZ6mP3jyoQJPkfY_adv_8wM=);
+    background-repeat: no-repeat;
+}
+
+/* nav{
+        background-color: #407F82;
+        width:400px;
+        height: 100px;
+        font-family:Gt,sans-serif;
+        font-size: 13px;
+        letter-spacing: 1.6px;
+        font-weight: 300;
+        
+    } */
+}

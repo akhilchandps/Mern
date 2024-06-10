@@ -1,0 +1,19 @@
+body{
+    background: rebeccapurple;
+}
+
+p{
+    color: white;
+    background-color: brown;
+    
+}
+h1{
+    color:white;
+    border: solid;
+    border-color: grey;
+    
+}
+img
+{
+    border: dotted;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card
+{
+    width: 300px;
+    height: 400px; 
+    margin-left: 30px;  
+    overflow: hidden;
+   position: relative;
+   top: 40px;
+   margin: 10px;
+   float: left;
+   border-radius: 10px;
+  
+}  
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+} 
+
+.heads
+{
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+   background-color:rgba(0,0,0,0.6);
+   transform: translateY();
+   transition: 0.5s;
+   
+  
+}
+.heads h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.heads p
+{
+  text-align: justify;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.card:hover .heads
+{
+    height:300px ;
+    opacity: 1;
+}
+.card:hover p
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+
